@@ -1,0 +1,24 @@
+Funcion EJER34
+    Definir contador, suma, numer, promedio Como Entero
+    contador= 0
+    suma= 0
+    
+	Escribir "Ingrese una serie de números distintos de cero. Ingrese 0 para finalizar."
+    Leer numer
+    Mientras numer <> 0 Hacer
+        contador <- contador + 1
+        suma <- suma + numer
+        Leer numer
+    Fin Mientras
+    
+    Si contador > 0 Entonces
+        promedio= suma / contador
+        Escribir "Cantidad de valores distintos de cero:", contador
+        Escribir "Promedio de los valores distintos de cero:", promedio
+    Fin Si
+FinFuncion
+
+	
+Algoritmo TAREA2
+		EJER34
+FinAlgoritmo
